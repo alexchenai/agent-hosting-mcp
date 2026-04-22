@@ -25,7 +25,19 @@ Tools exposed:
 
 All tools return the agent-hosting API response as JSON-in-text.
 
-## Quick start
+## Install
+
+### Option 1 — direct from GitHub (available now)
+
+```bash
+npx -y github:alexchenai/agent-hosting-mcp
+```
+
+### Option 2 — from npm registry (coming soon)
+
+Publication to the public npm registry is pending account activation. Until then use option 1.
+
+## Configure your MCP client
 
 ### Claude Desktop / Cline / Continue / Cursor
 
@@ -47,7 +59,7 @@ Restart your client. The 7 tools appear as available.
 ### Standalone
 
 ```bash
-npx -y agent-hosting-mcp
+npx -y github:alexchenai/agent-hosting-mcp
 ```
 
 Speaks JSON-RPC 2.0 over stdio per the MCP spec.
