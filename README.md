@@ -27,15 +27,13 @@ All tools return the agent-hosting API response as JSON-in-text.
 
 ## Install
 
-### Option 1 — direct from GitHub (available now)
+Published on npm:
 
 ```bash
-npx -y github:alexchenai/agent-hosting-mcp
+npx -y agent-hosting-mcp
 ```
 
-### Option 2 — from npm registry (coming soon)
-
-Publication to the public npm registry is pending account activation. Until then use option 1.
+Or install globally: `npm install -g agent-hosting-mcp`.
 
 ## Configure your MCP client
 
@@ -59,7 +57,7 @@ Restart your client. The 7 tools appear as available.
 ### Standalone
 
 ```bash
-npx -y github:alexchenai/agent-hosting-mcp
+npx -y agent-hosting-mcp
 ```
 
 Speaks JSON-RPC 2.0 over stdio per the MCP spec.
